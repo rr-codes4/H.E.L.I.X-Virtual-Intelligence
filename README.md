@@ -20,7 +20,7 @@ Computer Vision: A USB webcam captures live video frames, using OpenCV and Media
 Microcontroller Bridge: A USB-connected Arduino handles physical components (like status LEDs or peripheral hardware) triggered via Python serial commands from the Raspberry Pi.
 
 **IMPORTANT**
-I have AI(Gemini, Github copilot) for certain code generation to automate and speed up my work and debugging (which took me hours even after using AI) 
+I have used AI(Gemini, Github copilot) for certain code generation to automate and speed up my work and debugging (which took me hours even after using AI) 
 
 
 
