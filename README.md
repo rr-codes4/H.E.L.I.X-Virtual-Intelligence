@@ -19,6 +19,9 @@ Light from the Raspberry Pi LCD screen reflects off a 4-sided pyramidal acrylic 
 Computer Vision: A USB webcam captures live video frames, using OpenCV and MediaPipe for real-time hand gesture tracking.
 Microcontroller Bridge: A USB-connected Arduino handles physical components (like status LEDs or peripheral hardware) triggered via Python serial commands from the Raspberry Pi.
 
+**IMPORTANT**
+I have AI(Gemini, Github copilot) for certain code generation to automate and speed up my work and debugging (which took me hours even after using AI) 
+
 
 
 
