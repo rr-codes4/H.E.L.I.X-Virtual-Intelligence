@@ -1,7 +1,8 @@
 # H.E.L.I.X-Virtual-Intelligence
-Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON vibe. 
+Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON vibe(robotic and cold). 
 It’s an interactive AI companion that projects a custom holographic interface and responds to voice and system commands in real-time.
-It even responds to hand gestures using computer vision and voice commands (voice is like ultron).
+It even responds to hand gestures using computer vision and voice commands.
+But we have used lightweight models which might reduce the quality of reasoning,visual and performance. Doing so would let this project run of low level laptops.
 # HOW IT WORKS?
 **1. Voice Recognition:**
 It uses Vosk to process voice commands given by the user.
