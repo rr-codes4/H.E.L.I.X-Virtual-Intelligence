@@ -3,7 +3,7 @@
 **Project HELIX — Hardware Architecture & Signal Flow**
 
 This document details the physical components, signal routing, power distribution, and hardware interface layout for the **HELIX Holographic AI Assistant**.
-This diagram is only for rough understadning of the working of the model.
+This diagram is only for rough understanding of the working of the model.
 ---
 
 ## 🏗 System Block Diagram
