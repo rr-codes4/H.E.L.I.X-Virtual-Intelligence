@@ -13,7 +13,7 @@ AI parses the request and analyzes it.
 
 **3. Holographic Display (The Hologram):**
 I planned to use Raspberry pi LCD display but dropped the idea because it will just restrict the hologram to roughly 2.5 cm.
-Instead I decided to make it more eco-friendly , and make this project more impactful , I will be using a LCD panel from recycled Laptop screen paired with HDMI controller. This also reduced the total cost! This setup will allow me to drive 14.5 to 15 inch display directly from Raspberry HDMI port.
+Instead I decided to make this project more impactful , I will be using 15.6 inch HDMI display that could give me a larger hologram display and more easier to interact with it.
 
 4. Hardware Control & Interaction:
 Computer Vision: A USB webcam captures live video frames, using OpenCV and MediaPipe for real-time hand gesture tracking.
