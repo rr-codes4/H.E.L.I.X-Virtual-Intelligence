@@ -1,0 +1,6 @@
+vosk
+groq
+opencv-python
+mediapipe
+pyttsx3
+pyserial
