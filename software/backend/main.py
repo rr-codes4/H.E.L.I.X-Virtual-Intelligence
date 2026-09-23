@@ -18,7 +18,7 @@ if not api_key:#It took me two hours debugging ,I forgot to set my API key in th
     print("Error: GROQ_API_KEY is not set.")
     sys.exit(1)
 
-client = Groq(api_key=api_key)
+Me = Groq(api_key=api_key)
 
 ULTRON_SYSTEM_PROMPT = (
     "You are HELIX, an advanced virtual intelligence inspired by Ultron. "
@@ -31,12 +31,12 @@ ULTRON_SYSTEM_PROMPT = (
     "Say meow when someone says you are stupid,useless,unworthy or other types of insults"
 )
 #some news 
-def get_live_news(user_text: str) -> str:
+def news(user_text: str) -> str:
     """Detects news requests in user text, searches live DuckDuckGo News, and returns snippets."""
     text_lower = user_text.lower() #easy for helix
 
     news_trig = ["news", "headline", "headlines", "latest on", "what happened with", "update on"]
-    if not any(trigger in text_lower for trigger in news_triggers):
+    if not any(trigger in text_lower for trigger in news_trig):
         return ""
 #Duckduckgo search is so good , no API no signup no fee
     
@@ -58,10 +58,10 @@ def get_live_news(user_text: str) -> str:
             for item in news_gen:
                 title = item.get("title", "")
                 body = item.get("body", "")
-                results.append(f"- {title}: {body}")
+                res.append(f"- {title}: {body}")
 
-        if results:
-            context_data = "\n".join(results)
+        if res:
+            context_data = "\n".join(res)
             return f"\n[SYSTEM DATA - LIVE NEWS SEARCH RESULTS FOR '{query_topic.upper()}']:\n{context_data}"
 
     except Exception as e:
@@ -72,9 +72,9 @@ def get_live_news(user_text: str) -> str:
 
 def query_helix(user_text: str) -> str:#Query Helix with user text
     try:
-        start_at = time.perf_counter()#Recording the start time
+        started_at = time.perf_counter()#Recording the start time
         print("\n[HELIX]: Thinking...", flush=True)#:)
-        chat_comp = client.chat.completion.create(
+        chat_comp = Me.chat.completion.create(
             messages=[
                 {"role": "system", "content": ULTRON_SYSTEM_PROMPT},
                 {"role": "user", "content": user_text}
