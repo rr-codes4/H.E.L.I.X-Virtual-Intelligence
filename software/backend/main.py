@@ -11,8 +11,8 @@ from tts import speak
 from listener import listen_for_speech
 #I wanted to call API with simple syntaxes but I faced certain bugs while calling Api
 #so this method of api calling is copilot's
-BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
-load_dotenv(os.path.join(BACKEND_DIR, ".env"), override=True)#LOading my API
+BACK_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(BACK_DIR, ".env"), override=True)#LOading my API
 api_key = os.environ.get("GROQ_API_KEY")
 if not api_key:#It took me two hours debugging ,I forgot to set my API key in the .env file and I was getting an error that the API key is not set .I was like what the heck is going on, then I just prompted Copilot he added this to tell me stupid set up your api 
     print("Error: GROQ_API_KEY is not set.")
@@ -35,7 +35,7 @@ def get_live_news(user_text: str) -> str:
     """Detects news requests in user text, searches live DuckDuckGo News, and returns snippets."""
     text_lower = user_text.lower() #easy for helix
 
-    news_triggers = ["news", "headline", "headlines", "latest on", "what happened with", "update on"]
+    news_trig = ["news", "headline", "headlines", "latest on", "what happened with", "update on"]
     if not any(trigger in text_lower for trigger in news_triggers):
         return ""
 #Duckduckgo search is so good , no API no signup no fee
@@ -51,7 +51,7 @@ def get_live_news(user_text: str) -> str:
     print(f"\n[SEARCHING LIVE NEWS FOR]: '{query_topic}'...", flush=True)
 
     try:
-        results = []
+        res = []
         # Free DuckDuckGo news search!!!!
         with DDGS() as ddgs:
             news_gen = ddgs.news(query_topic, max_results=3)
@@ -72,9 +72,9 @@ def get_live_news(user_text: str) -> str:
 
 def query_helix(user_text: str) -> str:#Query Helix with user text
     try:
-        started_at = time.perf_counter()#Recording the start time
+        start_at = time.perf_counter()#Recording the start time
         print("\n[HELIX]: Thinking...", flush=True)#:)
-        chat_completion = client.chat.completions.create(
+        chat_comp = client.chat.completion.create(
             messages=[
                 {"role": "system", "content": ULTRON_SYSTEM_PROMPT},
                 {"role": "user", "content": user_text}
@@ -82,7 +82,7 @@ def query_helix(user_text: str) -> str:#Query Helix with user text
             model="openai/gpt-oss-120b",
         )
         print(f"[HELIX]: Response received in {time.perf_counter() - started_at:.1f}s", flush=True)
-        return chat_completion.choices[0].message.content
+        return chat_comp.choices[0].message.content
     except Exception as e:
         return f"System error processing query: {e}"
 
@@ -92,10 +92,10 @@ def run_helix():
 
     while True:
         try:
-            user_speech = listen_for_speech()
-            print(f"\n[YOU]: {user_speech}")
+            speech = listen_for_speech()
+            print(f"\n[YOU]: {speech}")
 
-            response = query_helix(user_speech)
+            response = query_helix(speech)
             speak(response)
 
         except KeyboardInterrupt:
