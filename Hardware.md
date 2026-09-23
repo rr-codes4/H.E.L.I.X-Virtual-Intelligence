@@ -2,7 +2,7 @@
 
 **Project HELIX — Hardware Architecture & Signal Flow**
 
-This document details the physical components, signal routing, power distribution, and hardware interface layout for the **HELIX Holographic AI Assistant**.
+This document details the physical components, power distribution, and hardware interface layout for the **HELIX Holographic AI Assistant**.
 This diagram is only for rough understanding of the working of the model.
 ---
 
@@ -13,30 +13,22 @@ This diagram is only for rough understanding of the working of the model.
                             HELIX HARDWARE ARCHITECTURE
 =================================================================================
 
- [ 12V 2A Power Adapter ]
-            |
-            v
- +------------------------+    LVDS Ribbon Cable    +---------------------------+
- | LCD HDMI DRIVER BOARD  |========================>| RECYCLED LAPTOP LCD SCREEN|
- +------------------------+                         | (14.5"-15" Display Base)  |
-            ^                                       +---------------------------+
-            | HDMI Cable                                          |
-            v                                                     v
- +-------------------------------------------------------------------------------+
- |                        RASPBERRY PI (MAIN PROCESSOR)                          |
- |                                                                               |
- |  • Vosk Voice Recognition (STT)      • Groq API (Meta Llama LLM Engine)     |
- |  • OpenCV + MediaPipe Gesture Engine • Python Serial Controller               |
- +-------------------------------------------------------------------------------+
-     |                    |                     |                     |
-     | USB                | USB                 | USB                 | USB (Serial)
-     v                    v                     v                     v
-+------------+      +------------+        +-----------+         +------------------+
-| USB WEBCAM |      |  USB MIC   |        |  SPEAKER  |         | ARDUINO (BRIDGE) |
-|(Gesture CV)|      |(Voice In)  |        |(Audio Out)|         +--------+---------+
-+------------+      +------------+        +-----------+                  |
-                                                                         v
-                                                                +------------------+
-                                                                | STATUS LED RING  |
-                                                                |  (RGB / Neopixel)|
-                                                                +------------------+
++-------------------------------------------------------------------+
+|                        HOST MACHINE                               |
+|                  (Acer Laptop / Raspberry Pi)                     |
++-------------------+----------------------------+------------------+
+                    |                            |
+          (HDMI Video Out)               (USB Data & Power)
+                    |                            |
+                    v                            v
+  +-----------------------------------+  +--------------------------+
+  |  15.6" / 10.1" HDMI DISPLAY       |  |  ARDUINO NANO            |
+  |  (Pepper's Ghost Optical Visuals) |  |  (Lighting & Sensors)    |
+  +-----------------------------------+  +------------+-------------+
+                                                      |
+                                           +----------+----------+
+                                           |                     |
+                                           v                     v
+                                    [ WS2812B RGB ]      [ Micro-Servo ]
+                                    [  LED Strip  ]      [ Base Swivel ]
+                                                                
