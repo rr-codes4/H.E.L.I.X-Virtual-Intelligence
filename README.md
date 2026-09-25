@@ -22,8 +22,8 @@ Microcontroller Bridge: A USB-connected Arduino handles physical components (lik
 **IMPORTANT**
 I have used AI(Gemini, Github copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI) 
 
-![CAD Front View](./images/front_view.png)
-![CAD Front View](./images/Isometric_view.png)
+![CAD Front View](./images/software/cad/front_view.png)
+![CAD Front View](./images/software/cad/Isometric_view.png)
 
 
 
