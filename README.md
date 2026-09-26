@@ -31,7 +31,7 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 
 
 ## IMPORTANT
-I have used AI(Gemini, GitHub Copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI) 
+I have used AI(Gemini, GitHub Copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI). And I don't know C++ :}. I have provided a firmware that enabled Arduino nano's job , that is indeed made with AI but I know the core logic...and all my old projects that needed Arduino saw the same procedure.
 
 > The full CAD is available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
 
