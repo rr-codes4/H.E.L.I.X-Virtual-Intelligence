@@ -28,7 +28,7 @@ I have used AI(Gemini, Github copilot) for certain code generation that automate
 ![CAD Side View](./software/cad/front_view.png)
 
 **COMPONETS AND MOUNTING**
-![CAD COMPONENTS](./software/cad/Components.png)
+![CAD COMPONENTS](./software/cad/Componets.png)
 
 
 
