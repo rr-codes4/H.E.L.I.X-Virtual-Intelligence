@@ -1,0 +1,11 @@
+Item,Description,Est. Cost (USD)
+Raspberry Pi 4 / 5,Core processor running Python & Backend,$70.00
+Arduino Nano,Microcontroller connected via USB serial for LED and hardware control,$7.00
+15.6-Inch Portable HDMI monitor,Full HD screen for 3D holographic projection,$88.00
+Acrylic Sheet (Pyramid),Custom cut for the 3D holographic projection,$18.00
+USB Webcam,For computer vision and hand gesture tracking,$20.00
+USB Microphone & Speaker,Audio input/output for Helix's voice,$18.00
+3D Printed Chassis & Display Frame,Structural frame top display bezel and corner pillars (PLA),$10.00
+M5x40 Flathead Bolts & M5 Hex Nuts,Steel fasteners for securing pillars and base plate (16 sets),$4.00
+Jumper Wires & Power Wiring Harness,Internal cabling for Arduino camera and power routing,$3.00
+Total Estimated Budget,Complete physical system,$238.00
