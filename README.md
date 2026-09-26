@@ -1,3 +1,5 @@
+![CAD Front View](./software/cad/Isometric_view.png)
+
 # H.E.L.I.X-Virtual-Intelligence
 Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON inspired aesthetic(robotic and cold). 
 It’s an interactive AI companion that projects a custom holographic interface and responds to voice and system commands in real-time.
@@ -57,7 +59,7 @@ I have used AI(Gemini, GitHub Copilot) for certain code generation that automate
 
 **ASSEMBLY (CHASSIS)**
 
-![CAD Front View](./software/cad/Isometric_view.png)
+
 ![CAD Side View](./software/cad/front_view.png)
 
 ** COMPONENTS AND MOUNTING**
