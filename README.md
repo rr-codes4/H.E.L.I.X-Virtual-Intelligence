@@ -29,6 +29,10 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 2. **OPTICAL FRAME:** Four vertical corner pillars elevate the 15.6 inch monitor directly above the 4-sided acrylic reflector pyramid.
 3. **Mechanical Fasteners:** Rigidly assembled using 16× M5x40 Flathead Steel Bolts and matching M5 Hex Nuts without relying on adhesives.
 
+
+## IMPORTANT
+I have used AI(Gemini, GitHub Copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI) 
+
 > The full CAD is available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
 
 5. Complete BOM 
@@ -50,8 +54,6 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 > For Machine readable version see ['BOM.csv'](./software/BOM.csv)
 
 
-**IMPORTANT**
-I have used AI(Gemini, GitHub Copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI) 
 
 **ASSEMBLY (CHASSIS)**
 
