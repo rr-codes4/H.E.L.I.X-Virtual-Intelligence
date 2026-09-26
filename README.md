@@ -57,26 +57,31 @@ I have used AI(Gemini, GitHub Copilot) for certain code generation that automate
 ![CAD COMPONENTS](./software/cad/Componets.png)
 
 
-## Repository Structure
-|_Software
-   |__Backend
-       |__model/model
-       |__software/vision
-          |__software/arduino
-             |__helix_firmware.ino
-             |__requirements.ino
-             |__hand_tracking.py
-             |__listener.py
-             |__main.py
-             |__tts.py
-             |voicetest.py
-    |__cad
-       |__components.png
-       |__HELIX Hardware Architecture Setup (rough)
-       |__Helix_Model.step
-       |__Isometric_view.png
-       |__front_view.png
-    |__BOM.csv
-|__.gitignore
-|__BOM.md
-|__README.md
+## 📂 Repository Structure
+
+```text
+.
+├── BOM.csv
+├── BOM.md
+├── README.md
+├── .gitignore
+├── Software/
+│   └── Backend/
+│       ├── model/
+│       └── software/
+│           └── vision/
+│               └── software/
+│                   └── arduino/
+│                       ├── helix_firmware.ino
+│                       ├── requirements.txt
+│                       ├── hand_tracking.py
+│                       ├── listener.py
+│                       ├── main.py
+│                       ├── tts.py
+│                       └── voicetest.py
+└── cad/
+    ├── Helix_Model.step
+    ├── components.png
+    ├── Isometric_view.png
+    ├── front_view.png
+    └── HELIX Hardware Architecture Setup (rough)
