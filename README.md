@@ -2,31 +2,31 @@
 Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON inspired aesthetic(robotic and cold). 
 It’s an interactive AI companion that projects a custom holographic interface and responds to voice and system commands in real-time.
 It even responds to hand gestures using computer vision and voice commands.
-But I have used lightweight models which might reduce the quality of reasoning,visual and performance. Doing so would let this project run of low level laptops.
+But I have used lightweight models which might reduce the quality of reasoning,visual and performance. Doing so would let this project run on low-end laptops.
 # HOW IT WORKS?
 **1. Voice Recognition:**
 It uses Vosk to process voice commands given by the user.
 
 **2. AI Processing and Logic:**
 The transcribed text is sent to a Python backend powered by Meta's Llama hosted by Groq API.
-AI parses the request and analyzes it.
+AI parses and analyzes the request.
 
 **3. Holographic Display (The Hologram):**
-I planned to use Raspberry pi LCD display but dropped the idea because it will just restrict the hologram to roughly 2.5 cm.
-Instead I decided to make this project more impactful , I will be using 15.6 inch HDMI display that could give me a larger hologram display and more easier to interact with it.
+I planned to use Raspberry pi LCD display but dropped the idea because it would restrict the hologram to roughly 2.5 cm.
+Instead I decided to make this project more impactful , I will be using 15.6 inch HDMI display that could give me a larger hologram display and make it easier to interact with.
 
 4. Hardware Control & Interaction:
-STANDALONE HOST COMPUTE -: Raspberry pi runs the python backend,handes vosk offline voice recognition,manages MediaPipe/OpenCV gesture tracking via USB webcam and outputs visual to the 15.6 inch display.
+STANDALONE HOST COMPUTE -: Raspberry pi runs the python backend, handles Vosk offline voice recognition, manages MediaPipe/OpenCV gesture tracking via USB webcam and outputs visuals to the 15.6 inch display.
 
 AI LOGIC AND REASONING-:   Transcribed voice inputs are sent via Raspberry Pi to Meta's LLaMa hosted on the high speed groq API.
 
-MICROCONTROLLER BRIDGE(ARDUINO NANO)-:Connected to the raspberry pi via USB serial to execute low-level hardware triggers and controls status LEDs.
+MICROCONTROLLER BRIDGE(ARDUINO NANO)-: Connected to the Raspberry Pi via USB serial to execute low-level hardware triggers and control status LEDs.
 
 And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a central 4-sided acrylic reflector pyramid.
 
 > The full CAD is available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
 
-5. Compelete BOM 
+5. Complete BOM 
 # H.E.L.I.X - Bill of Materials (BOM)
 | Item | Description | Est. Cost(USD) |
 | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 | **USB Webcam** | For computer vision and hand gestures | ~$15 - $25 |
 | **Arduino Nano / Uno** | Controls physical LEDs and hardware peripherals | ~$5 - $10 |
 | **USB Microphone & Speaker** | Audio input/output for Helix's voice | ~$15 - $20 |
-| **3D Printed Chassis & Display**| Structural Frame , Top Display bezel and corner piller (PLA)|~$8-$12|
+| **3D Printed Chassis & Display**| Structural Frame , Top Display bezel and corner pillar (PLA)|~$8-$12|
 |**M5x40 Flathead Bolts & M5 Hex Nuts 16 sets** | Steel Fasteners for securing pillars and base plate| ~$3 - $5|
 |**Jumper wires and Power Wiring Harness (1kit)**| Internal cabling for Arduino,camera and power routing|$2-$3|
 | **Total Estimated Budget** | | **~$216 - $273** |
@@ -46,15 +46,37 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 
 
 **IMPORTANT**
-I have used AI(Gemini, Github copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI) 
+I have used AI(Gemini, GitHub Copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI) 
 
 **ASSEMBLY (CHASSIS)**
 
 ![CAD Front View](./software/cad/Isometric_view.png)
 ![CAD Side View](./software/cad/front_view.png)
 
-**COMPONETS AND MOUNTING**
+** COMPONENTS AND MOUNTING**
 ![CAD COMPONENTS](./software/cad/Componets.png)
 
 
-
+## Repository Structure
+|_Software
+   |__Backend
+       |__model/model
+       |__software/vision
+          |__software/arduino
+             |__helix_firmware.ino
+             |__requirements.ino
+             |__hand_tracking.py
+             |__listener.py
+             |__main.py
+             |__tts.py
+             |voicetest.py
+    |__cad
+       |__components.png
+       |__HELIX Hardware Architecture Setup (rough)
+       |__Helix_Model.step
+       |__Isometric_view.png
+       |__front_view.png
+    |__BOM.csv
+|__.gitignore
+|__BOM.md
+|__README.md
