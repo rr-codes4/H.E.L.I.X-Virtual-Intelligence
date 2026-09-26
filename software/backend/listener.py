@@ -21,22 +21,26 @@ def listen_for_speech() -> str:
 
     def audio_callback(indata, frames, time, status): #It will all the time in my background everytime my microphone records something
 
-        audio_data = np.frombuffer(indata, dtype=np.int16).astype(np.float32)
-        boosted_data = np.clip(audio_data * 2.5, -32768, 32767).astype(np.int16) #converting data from binary into numerical and multiplying by 2.5 to boost the audio signal and then converting it back to binary
-        audio_queue.put(boosted_data.tobytes())       
+        audio_queue.put(bytes(indata)) #Convert to bytes and put in queue      
 
     # The stream closes automatically when exiting the 'with' block,
     # freeing up audio hardware for pyttsx3 to speak cleanly!
     with sd.RawInputStream(samplerate=16000, blocksize=8000, dtype='int16',
                            channels=1, callback=audio_callback):
         while True: 
-            data = audio_queue.get()
+            try:
+                data = audio_queue.get(timeout=0.5)
+            except queue.Empty:
+                continue
             if recognizer.AcceptWaveform(data):
                 result = json.loads(recognizer.Result())
-                text = result.get("text", "").strip()
+                text = result.get("text", "")
                 if text:
-                    return text 
-
+                    return text
+            else:
+                partial_result = json.loads(recognizer.PartialResult())
+                if partial_result.get("partial"):
+                    pass 
         
 
         #YAyyyyyy!

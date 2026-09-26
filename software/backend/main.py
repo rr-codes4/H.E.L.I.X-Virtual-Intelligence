@@ -93,10 +93,13 @@ def run_helix():
     while True:
         try:
             user_speech = listen_for_speech()
-            print(f"\n[YOU]: {user_speech}")
+            if user_speech:
+               print(f"\n[YOU]: {user_speech}")
 
-            response = query_helix(user_speech)
-            speak(response)
+               response = query_helix(user_speech)
+               speak(response)
+            else:
+                time.sleep(0.5)
 
         except KeyboardInterrupt:
             print("\n[HELIX SHUTTING DOWN]")
