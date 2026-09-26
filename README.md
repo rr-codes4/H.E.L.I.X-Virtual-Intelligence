@@ -42,7 +42,7 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 |**Jumper wires and Power Wiring Harness (1kit)**| Internal cabling for Arduino,camera and power routing|$2-$3|
 | **Total Estimated Budget** | | **~$216 - $273** |
 
-> For Machine readable version see ['BOM.csv'](
+> For Machine readable version see ['BOM.csv'](./software/BOM.csv)
 
 
 **IMPORTANT**
