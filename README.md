@@ -15,14 +15,19 @@ AI parses and analyzes the request.
 I planned to use Raspberry pi LCD display but dropped the idea because it would restrict the hologram to roughly 2.5 cm.
 Instead I decided to make this project more impactful , I will be using 15.6 inch HDMI display that could give me a larger hologram display and make it easier to interact with.
 
-4. Hardware Control & Interaction:
-STANDALONE HOST COMPUTE -: Raspberry pi runs the python backend, handles Vosk offline voice recognition, manages MediaPipe/OpenCV gesture tracking via USB webcam and outputs visuals to the 15.6 inch display.
+## 4. Hardware Control & Interaction:
+**STANDALONE HOST COMPUTE -:** Raspberry pi runs the python backend, handles Vosk offline voice recognition, manages MediaPipe/OpenCV gesture tracking via USB webcam and outputs visuals to the 15.6 inch display.
 
-AI LOGIC AND REASONING-:   Transcribed voice inputs are sent via Raspberry Pi to Meta's LLaMa hosted on the high speed groq API.
+**AI LOGIC AND REASONING-:**   Transcribed voice inputs are sent via Raspberry Pi to Meta's LLaMa hosted on the high speed groq API.
 
-MICROCONTROLLER BRIDGE(ARDUINO NANO)-: Connected to the Raspberry Pi via USB serial to execute low-level hardware triggers and control status LEDs.
+**MICROCONTROLLER (ARDUINO NANO)-:** Connected to the Raspberry Pi via USB serial to execute low-level hardware triggers and control status LEDs.
 
 And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a central 4-sided acrylic reflector pyramid.
+
+## 4.Assembly & Mounting specs
+**BASE PLATE :** Integrated mounting slots for Arduino Nano , wire routing channels, and base leg support.
+**OPTICAL FRAME:** Four vertical corner pillars elevate the 15.6 inch monitor directly above the 4-sided acrylic reflector pyramid.
+**Mechanical Fasteners:** Rigidly assembled using 16× M5x40 Flathead Steel Bolts and matching M5 Hex Nuts without relying on adhesives.
 
 > The full CAD is available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
 
