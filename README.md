@@ -56,9 +56,9 @@ I have used AI(Gemini, GitHub Copilot) for certain code generation that automate
 
 
 **ASSEMBLY (CHASSIS)**
-![CAD Front View](./software/cad/Isometric_view.png)
 
-![CAD Side View](./software/cad/front_view.png)
+![CAD side View](./software/cad/Isometric_view.png)
+![CAD front View](./software/cad/front_view.png)
 
 ** COMPONENTS AND MOUNTING**
 ![CAD COMPONENTS](./software/cad/Componets.png)
