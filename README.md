@@ -1,5 +1,5 @@
 # H.E.L.I.X-Virtual-Intelligence
-Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON vibe(robotic and cold). 
+Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON inspired aesthetic(robotic and cold). 
 It’s an interactive AI companion that projects a custom holographic interface and responds to voice and system commands in real-time.
 It even responds to hand gestures using computer vision and voice commands.
 But I have used lightweight models which might reduce the quality of reasoning,visual and performance. Doing so would let this project run of low level laptops.
@@ -16,8 +16,17 @@ I planned to use Raspberry pi LCD display but dropped the idea because it will j
 Instead I decided to make this project more impactful , I will be using 15.6 inch HDMI display that could give me a larger hologram display and more easier to interact with it.
 
 4. Hardware Control & Interaction:
-Computer Vision: A USB webcam captures live video frames, using OpenCV and MediaPipe for real-time hand gesture tracking.
-Microcontroller Bridge: A USB-connected Arduino handles physical components (like status LEDs or peripheral hardware) triggered via Python serial commands from the Raspberry Pi.
+STANDALONE HOST COMPUTE -: Raspberry pi runs the python backend,handes vosk offline voice recognition,manages MediaPipe/OpenCV gesture tracking via USB webcam and outputs visual to the 15.6 inch display.
+
+AI LOGIC AND REASONING-:   Transcribed voice inputs are sent via Raspberry Pi to Meta's LLaMa hosted on the high speed groq API.
+
+MICROCONTROLLER BRIDGE(ARDUINO NANO)-:Connected to the raspberry pi via USB serial to execute low-level hardware triggers and controls status LEDs.
+
+And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a central 4-sided acrylic reflector pyramid.
+
+> The full CAD is available in ['/cad/assembly.step<\'](
+
+
 
 **IMPORTANT**
 I have used AI(Gemini, Github copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI) 
