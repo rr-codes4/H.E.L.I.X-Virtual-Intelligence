@@ -24,7 +24,7 @@ MICROCONTROLLER BRIDGE(ARDUINO NANO)-:Connected to the raspberry pi via USB seri
 
 And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a central 4-sided acrylic reflector pyramid.
 
-> The full CAD is available in ['/cad/assembly.step<\'](
+> The full CAD is available in ['/cad/assembly.step<\'](./software/cad/Helix Model.step)
 
 
 
