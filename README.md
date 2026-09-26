@@ -25,9 +25,9 @@ Instead I decided to make this project more impactful , I will be using 15.6 inc
 And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a central 4-sided acrylic reflector pyramid.
 
 ## 4.Assembly & Mounting specs
-**BASE PLATE :** Integrated mounting slots for Arduino Nano , wire routing channels, and base leg support.
-**OPTICAL FRAME:** Four vertical corner pillars elevate the 15.6 inch monitor directly above the 4-sided acrylic reflector pyramid.
-**Mechanical Fasteners:** Rigidly assembled using 16× M5x40 Flathead Steel Bolts and matching M5 Hex Nuts without relying on adhesives.
+1. **BASE PLATE :** Integrated mounting slots for Arduino Nano , wire routing channels, and base leg support.
+2. **OPTICAL FRAME:** Four vertical corner pillars elevate the 15.6 inch monitor directly above the 4-sided acrylic reflector pyramid.
+3. **Mechanical Fasteners:** Rigidly assembled using 16× M5x40 Flathead Steel Bolts and matching M5 Hex Nuts without relying on adhesives.
 
 > The full CAD is available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
 
