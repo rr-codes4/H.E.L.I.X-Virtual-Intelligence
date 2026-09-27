@@ -3,6 +3,10 @@ Inspired by sci-fi metas this project brings the iconic JARVIS concept out of th
 It’s an interactive AI companion that projects a custom holographic interface and responds to voice and system commands in real-time.
 It even responds to hand gestures using computer vision and voice commands.
 But I have used lightweight models which might reduce the quality of reasoning,visual and performance. Doing so would let this project run on low-end laptops.
+
+# Why did I make this?
+ Every tech-savvy person has a dream of working like a scientist/engineer in sci-fi movies. But in reality, holograms need high tech lab environment and lasers we couldn't afford. But we could keep it pocket-friendly by using the Pepper-ghost effect and low-key fulfill our dream of working like Tony Stark. 
+ 
 # HOW IT WORKS?
 **1. Voice Recognition:**
 It uses Vosk to process voice commands given by the user.
@@ -18,7 +22,7 @@ Instead I decided to make this project more impactful , I will be using 15.6 inc
 ## 4. Hardware Control & Interaction:
 **STANDALONE HOST COMPUTE -:** Raspberry pi runs the python backend, handles Vosk offline voice recognition, manages MediaPipe/OpenCV gesture tracking via USB webcam and outputs visuals to the 15.6 inch display.
 
-**AI LOGIC AND REASONING-:**   Transcribed voice inputs are sent via Raspberry Pi to Meta's LLaMa hosted on the high speed groq API.
+**AI LOGIC AND REASONING-:**   Transcribed voice inputs are sent via Raspberry Pi to Meta's LLaMA hosted on the high speed groq API.
 
 **MICROCONTROLLER (ARDUINO NANO)-:** Connected to the Raspberry Pi via USB serial to execute low-level hardware triggers and control status LEDs.
 
@@ -31,11 +35,22 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 
 
 ## IMPORTANT
+**AI usage:**
 I have used AI(Gemini, GitHub Copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI). And I don't know C++ :}. I have provided a firmware that enabled Arduino nano's job , that is indeed made with AI but I know the core logic...and all my old projects that needed Arduino saw the same procedure.
+
+
+**CAD & Hardware constrain:**
+Due to hardware performance limits on my primary Laptop, complex desktop CAD suites (such as Autodesk 360) were not viable.
+
+To overcome this the entire model is created on **Tinkercad**. My laptop wasn't even working properly on Tinkercad,this device does not support 3D modeling as it relies on **integrated AMD Radeon graphics**.
+
+After a few settings and crash out later I made a lightweight CAD model with **functional physical geometry**. It might look like a block toy but works!
+
+
 
 > Download the full CAD available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
 
-5. Complete BOM 
+## 5. Complete BOM 
 # H.E.L.I.X - Bill of Materials (BOM)
 | Item | Description | Est. Cost(USD) |
 | :--- | :--- | :--- |
