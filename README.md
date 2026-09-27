@@ -79,7 +79,7 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 ** COMPONENTS AND MOUNTING**
 ![CAD COMPONENTS](./software/cad/Componets.png)
 
-
+![Full](./software/cad/Screenshot(15).png)
 ## 📂 Repository Structure
 
 ```text
