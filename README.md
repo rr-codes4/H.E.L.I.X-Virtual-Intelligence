@@ -2,7 +2,7 @@
 Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON inspired aesthetic(robotic and cold). 
 It’s an interactive AI companion that projects a custom holographic interface and responds to voice and system commands in real-time.
 It even responds to hand gestures using computer vision and voice commands.
-But I have used lightweight models which might reduce the quality of reasoning,visual and performance. Doing so would let this project run on low-end laptops.
+But I have used lightweight models which might reduce the quality of reasoning, visuals and performance. Doing so would let this project run on low-end laptops.
 
 # Why did I make this?
  Every tech-savvy person has a dream of working like a scientist/engineer in sci-fi movies. But in reality, holograms need high tech lab environment and lasers we couldn't afford. But we could keep it pocket-friendly by using the Pepper-ghost effect and low-key fulfill our dream of working like Tony Stark. 
