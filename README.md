@@ -36,10 +36,12 @@ And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a ce
 
 ## IMPORTANT
 **AI usage:**
+
 I have used AI(Gemini, GitHub Copilot) for certain code generation that automated and sped up my work and also for debugging (which took me hours even after using AI). And I don't know C++ :}. I have provided a firmware that enabled Arduino nano's job , that is indeed made with AI but I know the core logic...and all my old projects that needed Arduino saw the same procedure.
 
 
 **CAD & Hardware constrain:**
+
 Due to hardware performance limits on my primary Laptop, complex desktop CAD suites (such as Autodesk 360) were not viable.
 
 To overcome this the entire model is created on **Tinkercad**. My laptop wasn't even working properly on Tinkercad,this device does not support 3D modeling as it relies on **integrated AMD Radeon graphics**.
