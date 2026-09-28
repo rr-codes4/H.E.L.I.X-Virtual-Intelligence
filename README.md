@@ -66,7 +66,7 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 | **3D Printed Chassis & Display**| Structural Frame , Top Display bezel and corner pillar (PLA)|~$8-$12|
 |**M5x40 Flathead Bolts & M5 Hex Nuts 16 sets** | Steel Fasteners for securing pillars and base plate| ~$3 - $5|
 |**Jumper wires and Power Wiring Harness (1kit)**| Internal cabling for Arduino,camera and power routing|$2-$3|
-| **Total Estimated Budget** | | **~$211 - $263** |
+
 
 > For Machine readable version see ['BOM.csv'](./software/BOM.csv)
 
