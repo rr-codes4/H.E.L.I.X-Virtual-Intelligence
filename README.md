@@ -1,5 +1,5 @@
 # H.E.L.I.X-Virtual-Intelligence
-Inspired by sci-fi metas this project brings the iconic JARVIS concept out of the flat screen and straight into physical space but with ULTRON inspired aesthetic(robotic and cold). 
+Inspired by sci-fi movies this project brings the iconic JARVIS concept out of the flat screen and straight into reality but with ULTRON inspired aesthetic(robotic and cold). 
 It’s an interactive AI companion that projects a custom holographic interface and responds to voice and system commands in real-time.
 It even responds to hand gestures using computer vision and voice commands.
 But I have used lightweight models which might reduce the quality of reasoning, visuals and performance. Doing so would let this project run on low-end laptops.
