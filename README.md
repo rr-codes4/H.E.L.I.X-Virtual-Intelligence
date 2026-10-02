@@ -52,7 +52,7 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 
 > Download the full CAD available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
 
-> I have also uploaded zipped .obj file of my CAD ['/cad/assembly.zip<\'](./software/cad/HelixModel.zip)
+
 ## 5. Complete BOM 
 # H.E.L.I.X - Bill of Materials (BOM)
 | Item | Description | Est. Cost(USD) |
