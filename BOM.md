@@ -1,13 +1,17 @@
+
 # H.E.L.I.X - Bill of Materials (BOM)
-| Item | Description | Est. Cost(USD) |
-| :--- | :--- | :--- |
-| **Raspberry Pi 4 / 5** | Core processor that will be running Python & Backend | ~$60 - $80 |
-| **Arduino Nano** | Microcontroller connected via USB serial for LED and hardware control | ~$5-$10|
-| **15.6-Inch Portable HDMI monitor** | Full HD screen that will give significantly bigger display | ~$88 |
-| **Acrylic Sheet (Pyramid)** | Custom cut for the 3D holographic projection | ~$15 - $20 |
-| **USB Webcam** | For computer vision and hand gestures | ~$15 - $25 |
-| **USB Microphone & Speaker** | Audio input/output for Helix's voice | ~$15 - $20 |
-| **3D Printed Chassis & Display**| Structural Frame , Top Display bezel and corner piller (PLA)|~$8-$12|
-|**M5x40 Flathead Bolts & M5 Hex Nuts 16 sets** | Steel Fasteners for securing pillars and base plate| ~$3 - $5|
-|**Jumper wires and Power Wiring Harness (1kit)**| Internal cabling for Arduino,camera and power routing|$2-$3|
+
+| Item | Description | Est. Cost(USD) | Est. Cost(INR) |
+| :--- | :--- | :--- | :--- |
+| **[Raspberry Pi 5 (4GB)](https://www.google.com/goto?url=CAESaAHrOzAVAkeliMxvIgBjKNmubEPyoI7blVYnB7_SfxONRVNm39U6xxJntSJP2kt52SMfqKMTNP3yA4n4U64uH5pfF0cWtAfrA3nT2bgVC71VcB7QYkfcVJDoQvNSijaaj73qJ5Ze9Uyy)** | Core processor running Python, backend, and computer vision | ~$148 | ~₹14,181 |
+| **[Arduino Nano V3](https://www.google.com/goto?url=CAESdgHrOzAVAmiYUewKJCMVHVhbrfHELbGdC7PSHQtqKr58qtalQp2WMyid3LYDpbwB8CL-LJ5GHuVLdyJn6_0pPsRJ1X-ZScGOCg5OIxsQz8IT-bRGFaYnFpSF2xdFZcbBtMb_tVh8L9wrMG-P4-iUd5zCfn4opUY)** | Microcontroller connected via serial for LED & hardware execution | ~$18| ₹1,685 |
+| **[4-Channel Logic Level Converter](https://www.google.com/goto?url=CAESkAEB6zswFb8NyFxRRkN4sTSVOY0b3jR4XG0hRdtN14sIVwDnrfdvUZJw2oIpjtLewk1yJ4gwsXh1LT1wrhZvKQ4EkxUhUZzLRgO_7jbQetYafPqPib1CbI6ubIe4QqxLImYbxHVXb6luydg-Zb6XCF_JQ_fN-1Aeerqbp5fHBoJOLqB-zgiQue8fuxL7_LLuX68)** | Bi-directional 3.3V <-> 5V logic shifter for safe UART data lines | ~$3 - $5 |~ ₹300-₹400 |
+| **[WS2812B RGB LED Module](https://www.google.com/goto?url=CAESewHrOzAVNx9bz0nGkE_iB2TDPsWuPbgI-I-Qz57xRCkQ7Mx-l6BxAFkxWV4wmFgoy2Z83CR_SA_o7PP8fB7qsgm08TD4KbdcbKzPlNBdXrj89sDqvNTywsBXoqoUH6foebDQ__HadNy69MvZkZEE2LP1qPx25uR21QA0mA)** | Addressable RGB status light for system visual feedback | ~$0.66 - $1 | ₹64 |
+| **[15.6-Inch Portable HDMI Monitor](https://www.google.com/goto?url=CAESkQEB6zswFaiA_kNxPrqexylUL5obK7v9OxBt8amh0d6sQHeFGJ5PXgSanEXmbSywM6qJdxzHAxKH1ZATCJaIVKQAnLBpatL7SCR0nq6kSh9zIumX2Udn8h5dq9KRXhYF0-OWqfgBmMJ0qvEvX831ihzVDKKU5Pbk1u4YVIZ16c5VxtmTAYsXB9nlPNipxWDFwpDx)** | Full HD screen that will give significantly bigger display | ~$119-$117 | ₹11,950-₹17,000 |
+| **[Acrylic Sheet 3mm Clear](https://www.google.com/goto?url=CAESjAEB6zswFSvFcdq6Lk-SP21TyfLG3NLZXXDdTFhduPeqyXN9CvCzvhxpJxXbSSHKn6RlOwxPDkki1SXsJUK35i_OoKe_pIjwPDZrs_oQw8GOdpyUrNwed5dU3m0YkrODZf1yA3m1vk08vKuc1KL2E-UZYhjNIxvKef23qYr96dOi5o8cocK_5l9dlgM0ZA)** | Custom cut for the 3D holographic projection | ~$3 - $4 | ₹249 |
+| **[USB Webcam 1080p](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:29,mid:576462471907545047,imageDocid:7322739904476914745,gpcid:15327881154012045433,headlineOfferDocid:9325763159710224632,catalogid:10697833003267899807,productDocid:7049721334987002531,rds:PC_15327881154012045433%7CPROD_PC_15327881154012045433&q=product&sa=X&ved=2ahUKEwjDy4iO852XAxWJj-EIHdTcHwIQgLcPegYIAAgSEAE)** | For computer vision and hand gestures | ~$15 - $25 | ₹2,499-₹3,150 |
+| **[USB Microphone & Speaker Unit](https://www.google.com/goto?url=CAESiQEB6zswFfTFFIShe475_TvGYUmTzUMgWfVHwwFqBil3kWPU_hynXVfrmsA9eCPGbn2dTGZ2utcQC1VWHlUWlaUozBuiEAwNag94GVmwKpEY9mwwYyg9JKi-g-qWna8J7BgrFP1m4uoV6DrTTDgUGmYXM3ZQOwouQscHrlfE8zBziX6VXtVBRqHnJQ)** | Audio input/output for Helix's voice | ~$5 - $7 | ₹500-₹600 |
+| **3D Printed Chassis & Frame** | Structural frame, top display bezel and corner pillars (PLA) | ~$8 - $12 | Varies |
+| **[M5 Screws & Nuts Assortment Kit](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:29,imageDocid:3710145356724137730,headlineOfferDocid:15225285320574964082,productDocid:15225285320574964082&q=product&sa=X&ved=2ahUKEwi1t_3Z9J2XAxX-kuEIHQh5Gb8QgLcPegYIAAgSEA4)** | Steel fasteners for securing pillars and base plate (16 sets) | ~$3 - $5 | ₹350 |
+| **[Breadboard & Jumper Wire Kit](https://www.google.com/goto?url=CAESgwEB6zswFbMry5JvOQ1n6jhdiCUL4RYFBB4jNngU07M1bWAQid76yyNYuwHkLe9xwmI3j3lFYjDE0AytXnyE1WxNvNOWIivgOTfXDBVmNZdoYl9V9YGX_Cev3s3TZtSXcEMCfOTJzGSsrw7iLxMAd0BHBCe9Cf7AqvUqfo8RGvcceWaUxA)** | Internal cabling for Arduino, camera, logic level converter, and power | ~$2 - $3 | ₹249 |
 
