@@ -89,4 +89,22 @@ ord('q')---> ON pressing q on my keyboard the camera is released and all windows
 ![Screenshot_29_.png](https://cdn.hackclub.com/01a0fb4c-cac2-7648-8622-279d776b37d3/Screenshot_29_.png)
 
 Faced many issues that need to be fixed. Sometimes the problem is right in front of you and you can't fix it. 
+
+# Hardware Architecture & Schematic Overview
+# Oct 3 2026
+1 hour
+To ensure reliable multi-voltage communication for Helix project,the schematic integrates Raspberry pi and Arduino Nano.
+
+Safe Logic Level Translation: Because the Raspberry Pi 5 is 3.3V logic and the Arduino Nano is 5V, we cannot cross wire the data lines. We have a 4 channel logic level shifter (U4) that takes care of the voltage conversion:
+
+High voltage rail (VCC1) is powered from 5V.
+
+Low voltage rail (VCC2) is referencing the Pi 5 board 3.3V power pin (Pin 1).
+
+Serial UART Data: Bi-directional serial data communication is established across the level shifter between the Arduino Nano (D0/RX, D1/TX) and the Pi 5 GPIO UART pins (GPIO14/TXD, GPIO15/RXD).
+
+Common Reference Ground: A common reference ground connects everything, the Raspberry Pi 5, Arduino Nano, the level shifter (VEE) and the indicators.
+![Screenshot_39_.png](https://cdn.hackclub.com/01a10080-c66f-715d-bf0f-5d3f8d7440cf/Screenshot_39_.png)
+
+
 I used GitHub Copilot it fixed the API key error and Model not found error that I was getting even after downloading the zipped folder and adding unzipped one in vscode.Basically the programme was not able to recognize the model folder.AI fixed , changed the code.
