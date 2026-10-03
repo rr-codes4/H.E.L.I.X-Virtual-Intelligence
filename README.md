@@ -59,10 +59,12 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 | :--- | :--- | :--- |
 | **Raspberry Pi 4 / 5** | Core processor that will be running Python & Backend | ~$60 - $80 |
 | **Arduino Nano** | Microcontroller connected via USB serial for LED and hardware control | ~$5-$10|
+|4-channel Logic Level Converter | 5V logic shifter for safe UART data lines | ~$1-$2 | 
+|WS2812B RGB LED Module | Addressable RGB status light for system visual feedback | ~$1-$2 |
 | **15.6-Inch Portable HDMI monitor** | Full HD screen that will give significantly bigger display | ~$88 |
 | **Acrylic Sheet (Pyramid)** | Custom cut for the 3D holographic projection | ~$15 - $20 |
 | **USB Webcam** | For computer vision and hand gestures | ~$15 - $25 |
-| **USB Microphone & Speaker/Audio Apaptor** | Audio input/output for Helix's voice | ~$15 - $20 |
+| **USB Microphone & Speaker/Audio Apaptor** | Audio input/output for Helix's voice | ~$15 -$20|
 | **3D Printed Chassis & Display/Frame for 15.6 inch display, 4 pillars for support**| Structural Frame , Top Display bezel and corner pillar (PLA)|~$8-$12|
 |**M5x40 Flathead Bolts & M5 Hex Nuts 16 sets** | Steel Fasteners for securing pillars and base plate| ~$3 - $5|
 |**Jumper wires and Power Wiring Harness (1kit)**| Internal cabling for Arduino,camera and power routing|$2-$3|
