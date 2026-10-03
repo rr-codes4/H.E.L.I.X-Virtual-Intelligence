@@ -72,6 +72,10 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 
 In the CAD of Tinkercad, the pyramid is inverted while in Onshape it's not. This is to show that my assembly could work in any of the ways.
 
+Schematic Overview of Hardware
+<img width="1366" height="768" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/1fa35bc4-5a79-4dbb-8e08-0d604333dd9a" />
+
+
 **ASSEMBLY (CHASSIS)**
 
 ![CAD side View](./software/cad/Isometric_view.png)
