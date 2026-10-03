@@ -55,19 +55,20 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 
 ## 5. Complete BOM 
 # H.E.L.I.X - Bill of Materials (BOM)
-| Item | Description | Est. Cost(USD) |
-| :--- | :--- | :--- |
-| **Raspberry Pi 4 / 5** | Core processor that will be running Python & Backend | ~$60 - $80 |
-| **Arduino Nano** | Microcontroller connected via USB serial for LED and hardware control | ~$5-$10|
-|4-channel Logic Level Converter | 5V logic shifter for safe UART data lines | ~$1-$2 | 
-|WS2812B RGB LED Module | Addressable RGB status light for system visual feedback | ~$1-$2 |
-| **15.6-Inch Portable HDMI monitor** | Full HD screen that will give significantly bigger display | ~$88 |
-| **Acrylic Sheet (Pyramid)** | Custom cut for the 3D holographic projection | ~$15 - $20 |
-| **USB Webcam** | For computer vision and hand gestures | ~$15 - $25 |
-| **USB Microphone & Speaker/Audio Apaptor** | Audio input/output for Helix's voice | ~$15 -$20|
-| **3D Printed Chassis & Display/Frame for 15.6 inch display, 4 pillars for support**| Structural Frame , Top Display bezel and corner pillar (PLA)|~$8-$12|
-|**M5x40 Flathead Bolts & M5 Hex Nuts 16 sets** | Steel Fasteners for securing pillars and base plate| ~$3 - $5|
-|**Jumper wires and Power Wiring Harness (1kit)**| Internal cabling for Arduino,camera and power routing|$2-$3|
+
+| Item | Description | Est. Cost(USD) | Est. Cost(INR) |
+| :--- | :--- | :--- | :--- |
+| **[Raspberry Pi 5 (4GB)](https://www.amazon.in/dp/B0CX21C8S2)** | Core processor running Python, backend, and computer vision | ~$60 - $80 | ₹9,632 |
+| **[Arduino Nano V3](https://robocraze.com/products/arduino-nano-r3-board)** | Microcontroller connected via serial for LED & hardware execution | ~$5 - $10 | ₹185 |
+| **[4-Channel Logic Level Converter](https://www.amazon.in/dp/B08246C69X)** | Bi-directional 3.3V <-> 5V logic shifter for safe UART data lines | ~$1 - $2 | ₹29 |
+| **[WS2812B RGB LED Module](https://robocraze.com/products/ws2812b-digital-rgb-led-module)** | Addressable RGB status light for system visual feedback | ~$1 - $2 | ₹64 |
+| **[15.6-Inch Portable HDMI Monitor](https://www.amazon.in/dp/B0CD35M3S9)** | Full HD screen that will give significantly bigger display | ~$88 | ₹7,299 |
+| **[Acrylic Sheet 3mm Clear](https://www.amazon.in/dp/B08XWW4G7R)** | Custom cut for the 3D holographic projection | ~$15 - $20 | ₹399 |
+| **[USB Webcam 1080p](https://www.amazon.in/dp/B0892B3VLS)** | For computer vision and hand gestures | ~$15 - $25 | ₹2,499 |
+| **[USB Microphone & Speaker Unit](https://www.amazon.in/dp/B09XXK314P)** | Audio input/output for Helix's voice | ~$15 - $20 | ₹2,374 |
+| **3D Printed Chassis & Frame** | Structural frame, top display bezel and corner pillars (PLA) | ~$8 - $12 | ₹800 |
+| **[M5 Screws & Nuts Assortment Kit](https://www.amazon.in/dp/B08332152M)** | Steel fasteners for securing pillars and base plate (16 sets) | ~$3 - $5 | ₹350 |
+| **[Breadboard & Jumper Wire Kit](https://www.amazon.in/dp/B01EV70CTO)** | Internal cabling for Arduino, camera, logic level converter, and power | ~$2 - $3 | ₹209 |
 
 
 > For Machine readable version see ['BOM.csv'](./software/BOM.csv)
