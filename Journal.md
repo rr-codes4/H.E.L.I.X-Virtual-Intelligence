@@ -89,7 +89,7 @@ ord('q')---> ON pressing q on my keyboard the camera is released and all windows
 ![Screenshot_29_.png](https://cdn.hackclub.com/01a0fb4c-cac2-7648-8622-279d776b37d3/Screenshot_29_.png)
 
 Faced many issues that need to be fixed. Sometimes the problem is right in front of you and you can't fix it. 
-
+I used GitHub Copilot it fixed the API key error and Model not found error that I was getting even after downloading the zipped folder and adding unzipped one in vscode.Basically the programme was not able to recognize the model folder.AI fixed , changed the code.
 # Hardware Architecture & Schematic Overview
 # Oct 3 2026
 1 hour
@@ -107,4 +107,4 @@ Common Reference Ground: A common reference ground connects everything, the Rasp
 ![Screenshot_39_.png](https://cdn.hackclub.com/01a10080-c66f-715d-bf0f-5d3f8d7440cf/Screenshot_39_.png)
 
 
-I used GitHub Copilot it fixed the API key error and Model not found error that I was getting even after downloading the zipped folder and adding unzipped one in vscode.Basically the programme was not able to recognize the model folder.AI fixed , changed the code.
+
