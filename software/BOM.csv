@@ -1,14 +1,13 @@
 Item,Description,Est. Cost(USD),Est. Cost(INR)
-Raspberry Pi 5 (4GB),"Core processor running Python, backend, and computer vision",~$148,"~₹14,181"
+Raspberry Pi 5 (4GB),"Core processor running Python, backend, and computer vision",$148,"~₹14,181"
 Arduino Nano V3,"Microcontroller connected via serial for LED & hardware execution",~$18,"₹1,685"
-4-Channel Logic Level Converter,Bi-directional 3.3V <-> 5V logic shifter for safe UART data lines,~$3 - $5,~ ₹300-₹400
-WS2812B RGB LED Module,Addressable RGB status light for system visual feedback,~$0.66 - $1,₹64
-15.6-Inch Portable HDMI Monitor,Full HD screen that will give significantly bigger display,~$119-$117,₹11,950-₹17,000
-Acrylic Sheet 3mm Clear,Custom cut for the 3D holographic projection,~$3 - $4,₹249
-USB Webcam 1080p,For computer vision and hand gestures,~$15 - $25,₹2,499-₹3,150
-USB Microphone & Speaker Unit,Audio input/output for Helix's voice,~$5 - $7,₹500-₹600
-3D Printed Chassis & Frame,"Structural frame, top display bezel and corner pillars (PLA)",~$8 - $12,Varies
-M5 Screws & Nuts Assortment Kit,Steel fasteners for securing pillars and base plate (16 sets),~$3 - $5,₹350
-Breadboard & Jumper Wire Kit,"Internal cabling for Arduino, camera, logic level converter, and power",~$2 - $3,₹249
-
+4-Channel Logic Level Converter,"Bi-directional 3.3V <-> 5V logic shifter for safe UART data lines","$3 - $5","~ ₹300-₹400"
+WS2812B RGB LED Module,"Addressable RGB status light for system visual feedback","$0.66 - $1","₹64"
+15.6-Inch Portable HDMI Monitor,"Full HD screen that will give significantly bigger display","$119-$117","₹11,950-₹17,000"
+Acrylic Sheet 3mm Clear,"Custom cut for the 3D holographic projection","$3 - $4","₹249"
+USB Webcam 1080p,"For computer vision and hand gestures","$15 - $25","₹2,499-₹3,150"
+USB Microphone & Speaker Unit,"Audio input/output for Helix's voice","$5 - $7","₹500-₹600"
+3D Printed Chassis & Frame,"Structural frame, top display bezel and corner pillars (PLA)","$8 - $12","Varies"
+M5 Screws & Nuts Assortment Kit,"Steel fasteners for securing pillars and base plate (16 sets)","$3 - $5","₹350"
+Breadboard & Jumper Wire Kit,"Internal cabling for Arduino, camera, logic level converter, and power","$2 - $3","₹249"
 
