@@ -50,7 +50,7 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 
 
 
-> Download the full CAD available in ['/cad/assembly.step<\'](./software/cad/Helix_Model.step)
+> Download the full CAD available in ['/cad/assembly.step<\'](./software/cad/Helix_model.step)
 
 
 ## 5. Complete BOM 
