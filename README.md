@@ -50,7 +50,7 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 
 
 
-> Download the full CAD available in ['/cad/assembly.step<\'](./software/cad/Helix_model.step)
+##  Download the full CAD available in ['/cad/assembly.step<\'](./software/cad/Helix_model.step)
 
 
 ## 5. Complete BOM 
@@ -71,13 +71,13 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 | **[Breadboard & Jumper Wire Kit](https://www.google.com/goto?url=CAESgwEB6zswFbMry5JvOQ1n6jhdiCUL4RYFBB4jNngU07M1bWAQid76yyNYuwHkLe9xwmI3j3lFYjDE0AytXnyE1WxNvNOWIivgOTfXDBVmNZdoYl9V9YGX_Cev3s3TZtSXcEMCfOTJzGSsrw7iLxMAd0BHBCe9Cf7AqvUqfo8RGvcceWaUxA)** | Internal cabling for Arduino, camera, logic level converter, and power | ~$2 - $3 | ₹249 |
 
 
-> For Machine readable version see ['BOM.csv'](./software/BOM.csv)
+## For Machine readable version see ['BOM.csv'](./software/BOM.csv)
 
 In the CAD of Tinkercad, the pyramid is inverted while in Onshape it's not. This is to show that my assembly could work in any of the ways.
 
 Schematic Overview of Hardware
 <img width="1366" height="768" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/1fa35bc4-5a79-4dbb-8e08-0d604333dd9a" />
-> For the schematic pdf of the circuit ['/Helix_circuit.pdf\'](./software/cad/Helix_Circuit.pdf)
+## For the schematic pdf of the circuit ['/Helix_circuit.pdf\'](./software/cad/Helix_Circuit.pdf)
 
 **ASSEMBLY (CHASSIS)**
 
