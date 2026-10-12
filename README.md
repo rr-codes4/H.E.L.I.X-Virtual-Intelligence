@@ -24,6 +24,10 @@ Instead I decided to make this project more impactful , I will be using 15.6 inc
 
 **AI LOGIC AND REASONING-:**   Transcribed voice inputs are sent via Raspberry Pi to Meta's LLaMA hosted on the high speed groq API.
 
+**Agentic Software Architecture (LangGraph Integration)-:**
+
+To elevate H.E.L.I.X from simple voice recognition bot to a stateful, context-aware AI assistant, the backend runs on a **LangGraph** agent runtime powered by Python on the Raspberry Pi 5!!!
+
 **MICROCONTROLLER (ARDUINO NANO)-:** Connected to the Raspberry Pi via USB serial to execute low-level hardware triggers and control status LEDs.
 
 And the 15.6 inch Full HD display projects inverted 4-quadrant imagery onto a central 4-sided acrylic reflector pyramid.
