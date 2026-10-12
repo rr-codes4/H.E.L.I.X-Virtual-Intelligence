@@ -48,7 +48,7 @@ I have used AI(Gemini, GitHub Copilot) for certain code generation that automate
 
 Due to hardware performance limits on my primary Laptop, complex desktop CAD suites (such as Autodesk 360) were not viable.
 
-To overcome this the entire model is created on **Onshape**. But initially, I prepared my model on **Tinkercad** as could work with my laptop well but I had to change my idea and prepare another model on Onshape as Forge doesn't accept Tinkercad. Although I provided screenshots of Tinkercad model as they looked lively, and one Onshape screenshot. My laptop wasn't even working properly on Onshape,this device does not support 3D modeling as it relies on **integrated AMD Radeon graphics**.
+To overcome this the entire model is created on **Onshape**. But initially, I prepared my model on **Tinkercad** as could work with my laptop well but I had to change my idea and prepare another model on Onshape due to some issues. Although I provided screenshots of Tinkercad model as they looked lively, and one Onshape screenshot. My laptop wasn't even working properly on Onshape,this device does not support 3D modeling as it relies on **integrated AMD Radeon graphics**.
 
 After a few settings and crash out later I made a lightweight CAD model with **functional physical geometry**. It might look like a block toy but works!
 
