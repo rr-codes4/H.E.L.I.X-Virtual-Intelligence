@@ -1,3 +1,4 @@
+
 # Helix : Hardware planning, CAD Optimization
 # September 28, 2026
 
@@ -17,7 +18,7 @@ I did the best to find and these parts and make the model before my laptop crash
 
 # Bringing Helix to life
 # Oct 1 2026
-2 hours 43 min
+3 hours
 The first task was to prepare the main backend for the project. 
 ![Screenshot_16_.png](https://cdn.hackclub.com/01a0f7ea-80ce-7bdf-883c-463382e7df30/Screenshot_16_.png)
 
@@ -64,7 +65,7 @@ Serial Command Listener (loop): The Arduino Nano continuously check if Raspberry
 
 # Giving Helix eyes
 # Oct 2 2026
-24min
+1 hours 15min
 ![Screenshot_25_.png](https://cdn.hackclub.com/01a0fb35-0388-7de6-9b87-6298900c8bfe/Screenshot_25_.png)
 ![Screenshot_26_.png](https://cdn.hackclub.com/01a0fb3e-f08c-760a-8f6e-ed1de880a2ae/Screenshot_26_.png)
 The HandTracker Class: MediaPipe initialization, setting up mp.solutions.hands--> this sets up rules tracking maximum of one hand(max_hands=1) 
@@ -102,6 +103,24 @@ High voltage rail (VCC1) is powered from 5V.
 Low voltage rail (VCC2) is referencing the Pi 5 board 3.3V power pin (Pin 1).
 
 Serial UART Data: Bi-directional serial data communication is established across the level shifter between the Arduino Nano (D0/RX, D1/TX) and the Pi 5 GPIO UART pins (GPIO14/TXD, GPIO15/RXD).
+
+# Architecture for integrating Langraph
+#  October 12, 2026
+~2 hours
+To elevate HELIX from a simple script to a context aware AI I am going to be integrating Langraph on Raspberry Pi 5 
+This is just the planning phase , please note that I am developing it before I actually received Raspberry pi 5 so that it arrives my I dont have much task to do.
+
+StateGraph Schema: Build custom typed dictionaries, called HelixState, to store things like conversation history, hardware flags, audio buffer status, and system errors.
+
+Conditional Routing: Create router functions that push user audio input where it needs to go—sometimes to regular LLM response nodes, other times to hardware nodes for stuff like LED patterns or gesture triggers.
+
+2. Multi-Turn Session Persistence Architecture
+So, each thread_id gets its own chunk of memory, thanks to these MemorySaver checkpointers. In plain English: HELIX doesn’t get amnesia after every back and forth it remembers the user’s vibe what they like, and where they left off. Chatting feels continuous, not like groundhog day resets with every message.
+
+3. Hardware Interfacing Strategy (Mocking & Simulation)
+Set up a communication bridge using pyserial kind of like giving the system a walkie-talkie with two channels. When you’re just messing around on your laptop (no microcontrollers plugged in), it switches to fake serial output so you can still test stuff without the real hardware. But move into actual deployment, and boom it flips to a real UART connection, letting the Raspberry Pi 5 and Arduino Nano talk through /dev/ttyACM0 like old pals. It’s flexible, doesn’t care if you’re simulating or plugged in for real.
+
+![Screenshot_2026-10-12_185052.png](https://cdn.hackclub.com/01a1304f-e159-7f67-9e6d-0202e37ff0f5/Screenshot_2026-10-12_185052.png)
 
 Common Reference Ground: A common reference ground connects everything, the Raspberry Pi 5, Arduino Nano, the level shifter (VEE) and the indicators.
 ![Screenshot_39_.png](https://cdn.hackclub.com/01a10080-c66f-715d-bf0f-5d3f8d7440cf/Screenshot_39_.png)
