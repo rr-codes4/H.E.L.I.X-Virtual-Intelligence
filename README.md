@@ -52,7 +52,7 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 
 ##  Download the full CAD available in ['/cad/assembly.step<\'](./software/cad/Helix_model.step)
 
-
+## Onshape Project Link [Project Link](https://cad.onshape.com/documents/8893d06001293cc24339469d/w/2c462f4db1d3c3128bd00966/e/3ba4c5bee19dd691ac191efe?renderMode=0&uiState=6accb525bcf9624c7ac57b64)
 ## 5. Complete BOM 
 # H.E.L.I.X - Bill of Materials (BOM)
 
