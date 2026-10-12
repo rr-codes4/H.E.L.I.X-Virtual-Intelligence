@@ -6,7 +6,7 @@ Sends trigger signals to main logic backend.
 """
 
 import cv2 
-import mediapipe as mp
+import mediapipe as mp 
 import time
 
 class HandTracker:
@@ -71,3 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
