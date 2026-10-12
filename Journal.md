@@ -103,7 +103,8 @@ High voltage rail (VCC1) is powered from 5V.
 Low voltage rail (VCC2) is referencing the Pi 5 board 3.3V power pin (Pin 1).
 
 Serial UART Data: Bi-directional serial data communication is established across the level shifter between the Arduino Nano (D0/RX, D1/TX) and the Pi 5 GPIO UART pins (GPIO14/TXD, GPIO15/RXD).
-
+Common Reference Ground: A common reference ground connects everything, the Raspberry Pi 5, Arduino Nano, the level shifter (VEE) and the indicators.
+![Screenshot_39_.png](https://cdn.hackclub.com/01a10080-c66f-715d-bf0f-5d3f8d7440cf/Screenshot_39_.png)
 # Architecture for integrating Langraph
 #  October 12, 2026
 ~2 hours
@@ -122,8 +123,7 @@ Set up a communication bridge using pyserial kind of like giving the system a wa
 
 ![Screenshot_2026-10-12_185052.png](https://cdn.hackclub.com/01a1304f-e159-7f67-9e6d-0202e37ff0f5/Screenshot_2026-10-12_185052.png)
 
-Common Reference Ground: A common reference ground connects everything, the Raspberry Pi 5, Arduino Nano, the level shifter (VEE) and the indicators.
-![Screenshot_39_.png](https://cdn.hackclub.com/01a10080-c66f-715d-bf0f-5d3f8d7440cf/Screenshot_39_.png)
+
 
 
 
