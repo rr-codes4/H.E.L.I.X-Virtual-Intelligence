@@ -62,7 +62,7 @@ After a few settings and crash out later I made a lightweight CAD model with **f
 
 | Item | Description | Est. Cost(USD) | Est. Cost(INR) |
 | :--- | :--- | :--- | :--- |
-| **[Raspberry Pi 5 (4GB)](https://www.google.com/goto?url=CAESaAHrOzAVAkeliMxvIgBjKNmubEPyoI7blVYnB7_SfxONRVNm39U6xxJntSJP2kt52SMfqKMTNP3yA4n4U64uH5pfF0cWtAfrA3nT2bgVC71VcB7QYkfcVJDoQvNSijaaj73qJ5Ze9Uyy)** | Core processor running Python, backend, and computer vision | ~$148 | ~₹14,181 |
+| **[Raspberry Pi 5 (4GB)](https://www.google.com/goto?url=CAESaAHrOzAVAkeliMxvIgBjKNmubEPyoI7blVYnB7_SfxONRVNm39U6xxJntSJP2kt52SMfqKMTNP3yA4n4U64uH5pfF0cWtAfrA3nT2bgVC71VcB7QYkfcVJDoQvNSijaaj73qJ5Ze9Uyy)** | Core processor running Python, backend, and computer vision | ~$13 | ~₹1,282 |
 | **[Arduino Nano V3](https://www.google.com/goto?url=CAESdgHrOzAVAmiYUewKJCMVHVhbrfHELbGdC7PSHQtqKr58qtalQp2WMyid3LYDpbwB8CL-LJ5GHuVLdyJn6_0pPsRJ1X-ZScGOCg5OIxsQz8IT-bRGFaYnFpSF2xdFZcbBtMb_tVh8L9wrMG-P4-iUd5zCfn4opUY)** | Microcontroller connected via serial for LED & hardware execution | ~$18| ₹1,685 |
 | **[4-Channel Logic Level Converter](https://www.google.com/goto?url=CAESkAEB6zswFb8NyFxRRkN4sTSVOY0b3jR4XG0hRdtN14sIVwDnrfdvUZJw2oIpjtLewk1yJ4gwsXh1LT1wrhZvKQ4EkxUhUZzLRgO_7jbQetYafPqPib1CbI6ubIe4QqxLImYbxHVXb6luydg-Zb6XCF_JQ_fN-1Aeerqbp5fHBoJOLqB-zgiQue8fuxL7_LLuX68)** | Bi-directional 3.3V <-> 5V logic shifter for safe UART data lines | ~$3 - $5 |~ ₹300-₹400 |
 | **[WS2812B RGB LED Module](https://www.google.com/goto?url=CAESewHrOzAVNx9bz0nGkE_iB2TDPsWuPbgI-I-Qz57xRCkQ7Mx-l6BxAFkxWV4wmFgoy2Z83CR_SA_o7PP8fB7qsgm08TD4KbdcbKzPlNBdXrj89sDqvNTywsBXoqoUH6foebDQ__HadNy69MvZkZEE2LP1qPx25uR21QA0mA)** | Addressable RGB status light for system visual feedback | ~$0.66 - $1 | ₹64 |
