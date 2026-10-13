@@ -18,7 +18,7 @@ I did the best to find and these parts and make the model before my laptop crash
 
 # Bringing Helix to life
 # Oct 1 2026
-8 hours
+9.5 hours
 The first task was to prepare the main backend for the project. 
 ![Screenshot_16_.png](https://cdn.hackclub.com/01a0f7ea-80ce-7bdf-883c-463382e7df30/Screenshot_16_.png)
 
@@ -65,7 +65,7 @@ Serial Command Listener (loop): The Arduino Nano continuously check if Raspberry
 
 # Giving Helix eyes
 # Oct 2 2026
-2 hours 15min
+2 hours 18min
 ![Screenshot_25_.png](https://cdn.hackclub.com/01a0fb35-0388-7de6-9b87-6298900c8bfe/Screenshot_25_.png)
 ![Screenshot_26_.png](https://cdn.hackclub.com/01a0fb3e-f08c-760a-8f6e-ed1de880a2ae/Screenshot_26_.png)
 The HandTracker Class: MediaPipe initialization, setting up mp.solutions.hands--> this sets up rules tracking maximum of one hand(max_hands=1) 
@@ -93,7 +93,7 @@ Faced many issues that need to be fixed. Sometimes the problem is right in front
 I used GitHub Copilot it fixed the API key error and Model not found error that I was getting even after downloading the zipped folder and adding unzipped one in vscode.Basically the programme was not able to recognize the model folder.AI fixed , changed the code.
 # Hardware Architecture & Schematic Overview
 # Oct 3 2026
-2 hours
+2 hours 43min
 To ensure reliable multi-voltage communication for Helix project,the schematic integrates Raspberry pi and Arduino Nano.
 
 Safe Logic Level Translation: Because the Raspberry Pi 5 is 3.3V logic and the Arduino Nano is 5V, we cannot cross wire the data lines. We have a 4 channel logic level shifter (U4) that takes care of the voltage conversion:
@@ -107,7 +107,7 @@ Common Reference Ground: A common reference ground connects everything, the Rasp
 ![Screenshot_39_.png](https://cdn.hackclub.com/01a10080-c66f-715d-bf0f-5d3f8d7440cf/Screenshot_39_.png)
 # Architecture for integrating Langraph
 #  October 12, 2026
-~2 hours
+~2.5 hours
 To elevate HELIX from a simple script to a context aware AI I am going to be integrating Langraph on Raspberry Pi 5 
 This is just the planning phase , please note that I am developing it before I actually received Raspberry pi 5 so that it arrives my I dont have much task to do.
 
@@ -142,5 +142,12 @@ Finally, the “engine” sets up the order of operations. It uses add_condition
 
 And that’s the gist—stays flexible if you’ve got hardware or not, keeps track of who’s saying what, figures out if it should toggle LEDs or just shoot the breeze, and remembers your conversation along the way.
 
+# Setting Environment and testing
+# October 13 2026
+# 2 hours
+1. Got the virtual environment up and running (about an hour). I set up `venv` for the project and sorted out all the necessary packages and version issues with `langgraph`, `langchain-core`, and `pyserial`.
 
+2. Spent about an hour testing and debugging and faced some attribute errors I had to fix
+
+![Screenshot_46_.png](https://cdn.hackclub.com/01a135e2-fe1e-7da3-88fa-17d3a096085d/Screenshot_46_.png)
 
