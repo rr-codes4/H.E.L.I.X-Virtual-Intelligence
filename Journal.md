@@ -18,7 +18,7 @@ I did the best to find and these parts and make the model before my laptop crash
 
 # Bringing Helix to life
 # Oct 1 2026
-9.5 hours
+12 hours
 The first task was to prepare the main backend for the project. 
 ![Screenshot_16_.png](https://cdn.hackclub.com/01a0f7ea-80ce-7bdf-883c-463382e7df30/Screenshot_16_.png)
 
@@ -125,7 +125,7 @@ Set up a communication bridge using pyserial kind of like giving the system a wa
 
 # Coding the backend to integrate Langgraph
 # October 12 2026
-# 12 hours
+# 9.5 hours
 ![Screenshot_40_.png](https://cdn.hackclub.com/01a1309f-ce7a-75a8-a7bc-a97eafe72138/Screenshot_40_.png)
 ![Screenshot_41_.png](https://cdn.hackclub.com/01a130a0-436e-72c9-bdac-cf7b0b040c9e/Screenshot_41_.png)
 First off, the whole thing starts connecting to an Arduino Nano . It hunts for the device at /dev/ttyACM0, and if the Arduino is there, it jumps right in. But if you don’t have the hardware actually plugged in… no big deal. It doesn’t crash or throw some cryptic error message instead, it just flips on this Hardware Simulation Mode so you can mess around without frying your brain over missing wires.
