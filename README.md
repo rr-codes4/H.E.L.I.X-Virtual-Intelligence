@@ -53,18 +53,21 @@ I split the project into different python script that work together.
    git clone [https://github.com/rr-codes4/H.E.L.I.X-Virtual-Intelligence.git](https://github.com/rr-codes4/H.E.L.I.X-Virtual-Intelligence.git)
    cd helix
 2. **Create and Activare Virtual Environment**
-python -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-3. **Install Dependencies**
- pip install langgraph langchain-core vosk sounddevice numpy pyserial pyttsx3
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+4. **Install Dependencies**
+   ```bash
+   pip install langgraph langchain-core vosk sounddevice numpy pyserial pyttsx3
 4.**Download Vosk Model**
 
 Download the vosk-model-small-en-us-0.15 folder from Vosk's official site.
 
 Place the unzipped model inside your project directory as model/
 5. **Run**
+```bash
 py main.py
-
+```
 
 ## IMPORTANT
 **AI usage:**
